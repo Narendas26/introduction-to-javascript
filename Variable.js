@@ -6,7 +6,6 @@
     3. =
     4. value
     5. semecolon
-
 */
 
 var weight = 38;
