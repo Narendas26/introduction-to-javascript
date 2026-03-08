@@ -46,3 +46,17 @@ console.log(total.toFixed(2)); // This statement decide how many digit show afte
 
 var num = 50 / 0;
 console.log(num);
+
+var x = '10'; //string type data
+console.log(typeof x); 
+var num = Number(x); //convert to number
+console.log(typeof num);
+
+var num1 = 4.56789;
+console.log(num1.toFixed(2)); // how many number show after fraction
+
+var num2 = isNaN(9);  //check that the value is number or not if number return false otherwise return true
+console.log(num2); 
+
+var num3 = isNaN(4 - 'hello'); //here we get NaN so it return true
+console.log(num3);
